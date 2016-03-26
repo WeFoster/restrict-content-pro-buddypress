@@ -45,6 +45,7 @@ class RCPBP_Setup {
 //		include_once( RCPBP_PATH . '/includes/components.php' );
 		include_once( RCPBP_PATH . '/includes/member-types.php' );
 		include_once( RCPBP_PATH . '/includes/profile.php' );
+		include_once( RCPBP_PATH . '/includes/restricted_content.php' );
 //		include_once( RCPBP_PATH . '/includes/groups.php' );
 	}
 
