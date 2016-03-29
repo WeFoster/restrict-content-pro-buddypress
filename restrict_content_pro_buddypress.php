@@ -3,7 +3,7 @@
  * Plugin Name: Restrict Content Pro - BuddyPress
  * Plugin URI:  http://wordpress.org/extend/plugins
  * Description: Extends Restrict Content Pro to integrate with BuddyPress
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Tanner Moushey
  * Author URI:  http://tannermoushey.com
  * License:     GPLv2+
@@ -30,7 +30,7 @@
  */
 
 // Useful global constants
-define( 'RCPBP_VERSION', '1.0.1' );
+define( 'RCPBP_VERSION', '1.0.2' );
 define( 'RCPBP_URL',     plugin_dir_url( __FILE__ ) );
 define( 'RCPBP_PATH',    dirname( __FILE__ ) . '/' );
 

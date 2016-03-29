@@ -54,6 +54,11 @@ class RCPBP_Setup {
 	 * @return bool
 	 */
 	protected function check_required_plugins() {
+
+		if ( ! function_exists( 'is_plugin_active' ) ) {
+			require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+		}
+
 		if ( is_plugin_active( 'restrict-content-pro/restrict-content-pro.php' ) && is_plugin_active( 'buddypress/bp-loader.php' ) ) {
 			return true;
 		}

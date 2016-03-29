@@ -26,6 +26,9 @@ Extends Restrict Content Pro to integrate with BuddyPress
 
 == Changelog ==
 
+= 1.0.2 =
+Make sure that is_plugin_active is defined before calling it during the setup check.
+
 = 1.0.1 =
 * Add improvements to plugin updater
 
